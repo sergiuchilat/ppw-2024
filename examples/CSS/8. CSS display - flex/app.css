@@ -1,0 +1,87 @@
+.container-flex-default{
+    display: flex;
+    border: 4px solid red;
+}
+
+.box{
+    border: 4px solid green;
+    width: 100px;
+    height: 100px;
+}
+
+.container-flex-direction-column{
+    display: flex;
+    flex-direction: column;
+    border: 4px solid red;
+}
+
+.container-flex-direction-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    border: 4px solid red;
+}
+
+.container-flex-direction-row-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    border: 4px solid red;
+}
+
+.container-flex-justify-content-end{
+    display: flex;
+    border: 4px solid red;
+    justify-content: flex-end;
+}
+
+.container-flex-justify-content-center{
+    display: flex;
+    border: 4px solid red;
+    justify-content: center;
+}
+
+.container-flex-justify-content-space-between{
+    display: flex;
+    border: 4px solid red;
+    justify-content: space-between;
+}
+
+.container-flex-justify-content-space-around{
+    display: flex;
+    border: 4px solid red;
+    justify-content: space-around;
+}
+
+.container-flex-align-items-center{
+    display: flex;
+    border: 4px solid red;
+    align-items: center;
+    height: 200px;
+}
+
+.container-flex-align-items-flex-end{
+    display: flex;
+    border: 4px solid red;
+    align-items: flex-end;
+    height: 200px;
+}
+
+.container-flex-align-items-stretch{
+    display: flex;
+    border: 4px solid red;
+    align-items: stretch;
+    height: 200px;
+}
+
+.box-stretch{
+    border: 4px solid green;
+    width: 100px;
+    
+}
+
+.container-flex-gap{
+    display: flex;
+    border: 4px solid red;
+    gap: 10px;
+    height: 200px;
+    padding: 10px;
+}

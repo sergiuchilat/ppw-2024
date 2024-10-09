@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>This is Box Model page</title>
+    <style type="text/css">
+        .element{
+            border: 5px solid red;
+            width: 150px;
+            height: 120px;
+            text-align: center;
+            margin: 10px;
+            padding: 20px;
+        }
+
+        .just-top{
+            width: 150px;
+            height: 120px;
+            border-top: 5px dashed blue;
+            margin-top: 10px;
+            padding-top: 5px;
+        }
+
+        .custom{
+            border-top: 5px solid blue;
+            border-bottom: 10px pink dashed;
+            border-left: 4px solid  red;
+            border-right: 10px dotted violet;
+            width: 200px;
+            height: 180px;
+        }
+        
+
+        .custom-grouped{
+            width: 200px;
+            height: 180px;
+            border-top: 5px solid blue;
+            border-bottom: 5px solid blue;
+            border-left: 10px dotted violet;
+            border-right: 10px dotted violet;
+        }
+
+        .shorthand{
+            width: 200px;
+            height: 180px;
+            border-width: 5px 10px;
+            border-color: blue violet;
+            border-style: solid dotted;
+        }
+
+        .shorthand-3{
+            width: 200px;
+            height: 180px;
+            border-width: 5px 10px 15px;
+            border-color: blue violet green;
+            border-style: solid dotted dashed;
+        }
+
+        .shorthand-4{
+            width: 200px;
+            height: 180px;
+            border-width: 5px 10px 15px 20px;
+            border-color: blue violet green red;
+            border-style: solid dotted dashed solid;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>CSS Box model</h1>
+    <h2>All 4 sides</h2>
+    <div class="element">Item 1</div>
+    <div class="element">Item 2</div>
+    <div class="element">Item 3</div>
+    <div class="element">Item 4</div>
+    <div class="element">Item 5</div>
+    <div class="element">Item 6</div>
+    <div class="element">Item 7</div>
+    <div class="element">Item 8</div>
+    <div class="element">Item 9</div>
+    <div class="element">Item 10</div>
+
+    <div class="just-top">Just top</div>
+    <div class="just-top">Just top</div>
+    <div class="just-top">Just top</div>
+
+    <h2>Top/Bottom/Left/Right</h2>
+    <div class="custom">Customized</div>
+
+    <h2>Top&Bottom + Left&Right</h2>
+    <div class="custom-grouped">Customized</div>
+
+    <h2>Shorthand</h2>
+    <div class="shorthand">Shorthand</div>
+
+    <h2>Shorthand 3</h2>
+    <div class="shorthand-3">Shorthand 3</div>
+
+    <h2>Shorthand 4</h2>
+    <div class="shorthand-4">Shorthand 4</div>
+</body>
+</html>
+

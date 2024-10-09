@@ -1,0 +1,78 @@
+body{
+    font-family: "Epilogue", sans-serif;
+    margin: 0 auto;
+    width: 90%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 78px;
+}
+
+nav img{
+    height: 78px;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+header .left-side{
+    
+}
+
+header h1{
+    font-size: 68px;
+}
+header .intro{
+    font-size: 17px;
+}
+
+header button{
+    width: 211px;
+    height: 78px;
+    background: #2D2D2D;
+    color: white;
+    margin-top: 1em;
+}
+
+section#partners ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+section#categories ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+section#portfolio ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+section#testimonial{
+   
+}
+
+section#testimonial ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+
+footer{
+}
+footer .body{
+    display: flex;
+}
