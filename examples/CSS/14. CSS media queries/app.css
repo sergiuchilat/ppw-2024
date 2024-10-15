@@ -1,0 +1,51 @@
+nav{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin-right: 10px;
+    width: 100%;
+    border: 1px solid white;   
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+@media screen and (max-width: 600px){
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px){
+    nav ul li a{
+        font-size: 10px;
+        padding: 0;
+    }
+}
+
+@media print{
+    #non-printable{
+        display: none;
+    }
+}
