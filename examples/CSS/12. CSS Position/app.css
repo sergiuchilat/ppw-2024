@@ -1,0 +1,35 @@
+.element{
+    width: 200px;
+    height: 75px;
+    border: 2px solid blue;
+}
+
+.position-relative{
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: yellow;
+}
+
+.position-absolute{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: green;
+}
+
+.position-fixed{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+}
+
+.adv{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: pink;
+    padding: 4em;
+    font-size: 3em;
+}
