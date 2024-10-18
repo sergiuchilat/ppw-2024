@@ -1,0 +1,12 @@
+.bg-body-tertiary{
+    background-color: blue !important;
+}
+
+.navbar-nav .nav-link.active{
+    color: white !important;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 2em;
+}
