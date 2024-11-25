@@ -1,0 +1,36 @@
+nav ul{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+section{
+    padding: 20px;
+    display: none;
+}
+
+section.active{
+    display: block;
+}
